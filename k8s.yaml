@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: cloudlab
-          image: DOCKERHUB_FELHASZNALO/cloudlab:1.0
+          image: delimate/cloudlab:1.0
           ports:
             - containerPort: 8080
           env:
